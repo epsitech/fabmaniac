@@ -1,0 +1,35 @@
+# file Makefile
+# make file for Fmnc system vectors, release fmnccmbd_ungenio
+# author Alexander Wirthmueller
+# date created: 7 Mar 2016
+# modified: 7 Mar 2016
+
+SRCROOT = /Users/epsi/src
+LIBROOT = /Users/epsi/lib
+
+CC = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread
+
+INCS = -I/opt/local/include/libxml2
+INCS += -I$(SRCROOT)
+OBJECTS = VecFmncVCall.o VecFmncVDpch.o VecFmncVExpstate.o VecFmncVIop.o VecFmncVJob.o VecFmncVMimetype.o VecFmncVQrystate.o VecFmncVRepdisp.o VecFmncVRepfsp.o VecFmncVRepssp.o VecFmncVReqitmode.o VecFmncVStub.o VecFmncVTag.o
+
+LIBRARY = libvecfmnc
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CC) $(CPPFLAGS) $(INCS) -o $@ -c $<
+
+all:	$(LIBRARY)
+
+$(LIBRARY):	$(OBJECTS)
+	ar rcs $(LIBRARY).a $(OBJECTS)
+	rm -f *.o
+
+install:
+	cp $(LIBRARY).a $(LIBROOT)/
+
+clean:
+	rm -f *.o
+

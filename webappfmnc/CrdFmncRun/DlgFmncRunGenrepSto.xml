@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>_cont</title>
+		<script>
+<!-- IP handleLoad - BEGIN -->
+			function initSto() {parent.window.initSto();};
+<!-- IP handleLoad - END -->
+			function handleChkDetChange() {parent.window.handleChkChange(document,"Sto","ChkDet");};
+			function handleRbuFilSelect(num) {parent.window.handleRbuSelect(document,"Sto","RbuFil",num);};
+			function handleRbuCpaSelect(num) {parent.window.handleRbuSelect(document,"Sto","RbuCpa",num);};
+			function handleRbuFspSelect(num) {parent.window.handleRbuSelect(document,"Sto","RbuFsp",num);};
+			function handleRbuSspSelect(num) {parent.window.handleRbuSelect(document,"Sto","RbuSsp",num);};
+<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+<!-- IP custStyle - INSERT -->
+	</head>
+<!-- IP ditonload - BEGIN -->
+	<body marginwidth="0" marginheight="0" onload="initSto()">
+<!-- IP ditonload - END -->
+		<table cellspacing="0" border="0" cellpadding="0"><form id="form" action="" method="POST" onsubmit="return true" enctype="multipart/form-data">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trDet" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptDet" class="cpt">CptDet</span>
+					</td>
+					<td></td>
+					<td align="left">
+						<input id="ChkDet" class="chk" name="ChkDet" type="checkbox" checked="checked" onchange="handleChkDetChange()"/>
+					</td>
+					<td colspan="7"></td>
+				</tr>
+				<tr id="tr11"><td colspan="11" height="3"></td></tr>
+				<tr id="tr12">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="tr13"><td colspan="11" height="3"></td></tr>
+				<tr id="trFil" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFil" class="cpt">CptFil</span>
+					</td>
+					<td></td>
+					<td id="RbuFil" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="tr21"><td colspan="11" height="3"></td></tr>
+				<tr id="tr22">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="tr23"><td colspan="11" height="3"></td></tr>
+				<tr id="trCpa" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptCpa" class="cpt">CptCpa</span>
+					</td>
+					<td></td>
+					<td id="RbuCpa" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trFsp" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFsp" class="cpt">CptFsp</span>
+					</td>
+					<td></td>
+					<td id="RbuFsp" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trSsp" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSsp" class="cpt">CptSsp</span>
+					</td>
+					<td></td>
+					<td id="RbuSsp" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+
+

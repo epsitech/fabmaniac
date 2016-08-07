@@ -1,0 +1,38 @@
+# file Makefile
+# make file for CrdFmncTol card job handler, release fmnccmbd_ungenio
+# author Alexander Wirthmueller
+# date created: 7 Mar 2016
+# modified: 7 Mar 2016
+
+SRCROOT = /Users/epsi/src
+LIBROOT = /Users/epsi/lib
+
+CC = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread -DFMNCCMBD
+
+INCS = -I/opt/local/include/libxml2 -I/usr/local/mysql/include -I/opt/local/include/postgresql84 -I/opt/local/include -I/usr/include
+INCS += -I$(SRCROOT)
+INCS += -I$(SRCROOT)/dbsfmnc
+INCS += -I$(SRCROOT)/fmnccmbd -I$(SRCROOT)/fmnccmbd/IexFmnc -I$(SRCROOT)/fmnccmbd/VecFmnc
+
+OBJECTS += CrdFmncTol.o PnlFmncTolRec.o PnlFmncTolDetail.o PnlFmncTolKSteppar.o QryFmncTolKSteppar.o PnlFmncTolKToolchar.o QryFmncTolKToolchar.o PnlFmncTolAAvl.o QryFmncTolAAvl.o PnlFmncTolAChar.o QryFmncTolAChar.o PnlFmncTolARes.o QryFmncTolARes.o PnlFmncTolAUtil.o QryFmncTolAUtil.o PnlFmncTol1NArticle.o QryFmncTol1NArticle.o PnlFmncTolRlv1NStep.o QryFmncTolRlv1NStep.o PnlFmncTolRef1NFile.o QryFmncTolRef1NFile.o PnlFmncTolMNTooltype.o QryFmncTolMNTooltype.o PnlFmncTolMNFabuser.o QryFmncTolMNFabuser.o PnlFmncTolSvcMNOrg.o QryFmncTolSvcMNOrg.o PnlFmncTolHeadbar.o PnlFmncTolList.o QryFmncTolList.o
+
+LIBRARY = libcrdfmnctol
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CC) $(CPPFLAGS) $(INCS) -o $@ -c $<
+
+all:	$(LIBRARY)
+
+$(LIBRARY):	$(OBJECTS)
+	ar rcs $(LIBRARY).a $(OBJECTS)
+	rm -f *.o
+
+install:
+	cp $(LIBRARY).a $(LIBROOT)/fmnccmbd/
+
+clean:
+	rm -f *.o
+

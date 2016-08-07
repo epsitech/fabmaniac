@@ -1,0 +1,38 @@
+# file Makefile
+# make file for CrdFmncSki card job handler, release fmnccmbd_genio
+# author Alexander Wirthmueller
+# date created: 7 Mar 2016
+# modified: 7 Mar 2016
+
+SRCROOT = /home/epsi/src
+LIBROOT = /home/epsi/lib
+
+CC = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread -DFMNCCMBD
+
+INCS = -I/usr/include/libxml2 -I/usr/include/mysql -I/usr/include/postgresql -I/usr/local/include -I/usr/include
+INCS += -I$(SRCROOT)
+INCS += -I$(SRCROOT)/dbsfmnc
+INCS += -I$(SRCROOT)/fmnccmbd -I$(SRCROOT)/fmnccmbd/IexFmnc -I$(SRCROOT)/fmnccmbd/VecFmnc
+
+OBJECTS += CrdFmncSki.o PnlFmncSkiRec.o PnlFmncSkiDetail.o PnlFmncSkiHeadbar.o PnlFmncSkiList.o QryFmncSkiList.o
+
+LIBRARY = libcrdfmncski
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CC) $(CPPFLAGS) $(INCS) -o $@ -c $<
+
+all:	$(LIBRARY)
+
+$(LIBRARY):	$(OBJECTS)
+	ar rcs $(LIBRARY).a $(OBJECTS)
+	rm -f *.o
+
+install:
+	cp $(LIBRARY).a $(LIBROOT)/fmnccmbd/
+
+clean:
+	rm -f *.o
+

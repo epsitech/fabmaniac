@@ -1,0 +1,38 @@
+# file Makefile
+# make file for CrdFmncNav card job handler, release fmnccmbd_ungenio
+# author Alexander Wirthmueller
+# date created: 7 Mar 2016
+# modified: 7 Mar 2016
+
+SRCROOT = /Users/epsi/src
+LIBROOT = /Users/epsi/lib
+
+CC = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread -DFMNCCMBD
+
+INCS = -I/opt/local/include/libxml2 -I/usr/local/mysql/include -I/opt/local/include/postgresql84 -I/opt/local/include -I/usr/include
+INCS += -I$(SRCROOT)
+INCS += -I$(SRCROOT)/dbsfmnc
+INCS += -I$(SRCROOT)/fmnccmbd -I$(SRCROOT)/fmnccmbd/IexFmnc -I$(SRCROOT)/fmnccmbd/VecFmnc
+
+OBJECTS += CrdFmncNav.o DlgFmncNavLoaini.o PnlFmncNavHeadbar.o PnlFmncNavPre.o PnlFmncNavAdmin.o PnlFmncNavLabbook.o PnlFmncNavFabmgmt.o PnlFmncNavSupply.o
+
+LIBRARY = libcrdfmncnav
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CC) $(CPPFLAGS) $(INCS) -o $@ -c $<
+
+all:	$(LIBRARY)
+
+$(LIBRARY):	$(OBJECTS)
+	ar rcs $(LIBRARY).a $(OBJECTS)
+	rm -f *.o
+
+install:
+	cp $(LIBRARY).a $(LIBROOT)/fmnccmbd/
+
+clean:
+	rm -f *.o
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>Labbook_bcont</title>
+		<script>
+			function handleButStpExpandClick() {parent.parent.window.handleButExpandClick("LstStp");};
+			function handleButStpCollapseClick() {parent.parent.window.handleButCollapseClick("LstStp");};
+			function handleButStpViewClick() {parent.parent.window.handleButCrdopenClick("ButStpView");};
+			function handleButStpNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButStpNewcrd");};
+			function handleButPrjExpandClick() {parent.parent.window.handleButExpandClick("LstPrj");};
+			function handleButPrjCollapseClick() {parent.parent.window.handleButCollapseClick("LstPrj");};
+			function handleButPrjViewClick() {parent.parent.window.handleButCrdopenClick("ButPrjView");};
+			function handleButPrjNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButPrjNewcrd");};
+			function handleButRunExpandClick() {parent.parent.window.handleButExpandClick("LstRun");};
+			function handleButRunCollapseClick() {parent.parent.window.handleButCollapseClick("LstRun");};
+			function handleButRunViewClick() {parent.parent.window.handleButCrdopenClick("ButRunView");};
+			function handleButRunNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButRunNewcrd");};
+			function handleButActExpandClick() {parent.parent.window.handleButExpandClick("LstAct");};
+			function handleButActCollapseClick() {parent.parent.window.handleButCollapseClick("LstAct");};
+			function handleButActViewClick() {parent.parent.window.handleButCrdopenClick("ButActView");};
+			function handleButActNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButActNewcrd");};
+			function handleButSepExpandClick() {parent.parent.window.handleButExpandClick("LstSep");};
+			function handleButSepCollapseClick() {parent.parent.window.handleButCollapseClick("LstSep");};
+			function handleButSepViewClick() {parent.parent.window.handleButCrdopenClick("ButSepView");};
+			function handleButSepNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButSepNewcrd");};
+			function handleButSmpExpandClick() {parent.parent.window.handleButExpandClick("LstSmp");};
+			function handleButSmpCollapseClick() {parent.parent.window.handleButCollapseClick("LstSmp");};
+			function handleButSmpViewClick() {parent.parent.window.handleButCrdopenClick("ButSmpView");};
+			function handleButSmpNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButSmpNewcrd");};
+<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<table cellspacing="0" border="0" cellpadding="0"><form action="">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trStp" class="show">
+					<td height="25"></td>
+					<td id="ldynStp" align="right">
+					</td>
+					<td></td>
+					<td id="dynStp" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynStp" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trStp2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trPrj" class="show">
+					<td height="25"></td>
+					<td id="ldynPrj" align="right">
+					</td>
+					<td></td>
+					<td id="dynPrj" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynPrj" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trPrj2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trRun" class="show">
+					<td height="25"></td>
+					<td id="ldynRun" align="right">
+					</td>
+					<td></td>
+					<td id="dynRun" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynRun" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trRun2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trAct" class="show">
+					<td height="25"></td>
+					<td id="ldynAct" align="right">
+					</td>
+					<td></td>
+					<td id="dynAct" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynAct" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trAct2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trSep" class="show">
+					<td height="25"></td>
+					<td id="ldynSep" align="right">
+					</td>
+					<td></td>
+					<td id="dynSep" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynSep" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trSep2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trSmp" class="show">
+					<td height="25"></td>
+					<td id="ldynSmp" align="right">
+					</td>
+					<td></td>
+					<td id="dynSmp" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynSmp" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trSmp2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+
+

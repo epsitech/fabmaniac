@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>_cont</title>
+		<script>
+<!-- IP handleLoad - BEGIN -->
+			function initOpt() {parent.window.initOpt();};
+<!-- IP handleLoad - END -->
+			function handleRbuHisSelect(num) {parent.window.handleRbuSelect(document,"Opt","RbuHis",num);};
+			function handleChkSsuChange() {parent.window.handleChkChange(document,"Opt","ChkSsu");};
+			function handleRbuFabSelect(num) {parent.window.handleRbuSelect(document,"Opt","RbuFab",num);};
+			function handleRbuPrsSelect(num) {parent.window.handleRbuSelect(document,"Opt","RbuPrs",num);};
+			function handleRbuFilSelect(num) {parent.window.handleRbuSelect(document,"Opt","RbuFil",num);};
+			function handleRbuSmpSelect(num) {parent.window.handleRbuSelect(document,"Opt","RbuSmp",num);};
+<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+<!-- IP custStyle - INSERT -->
+	</head>
+<!-- IP ditonload - BEGIN -->
+	<body marginwidth="0" marginheight="0" onload="initOpt()">
+<!-- IP ditonload - END -->
+		<table cellspacing="0" border="0" cellpadding="0"><form id="form" action="" method="POST" onsubmit="return true" enctype="multipart/form-data">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trHis" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptHis" class="cpt">CptHis</span>
+					</td>
+					<td></td>
+					<td id="RbuHis" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trSsu" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSsu" class="cpt">CptSsu</span>
+					</td>
+					<td></td>
+					<td align="left">
+						<input id="ChkSsu" class="chk" name="ChkSsu" type="checkbox" checked="checked" onchange="handleChkSsuChange()"/>
+					</td>
+					<td colspan="7"></td>
+				</tr>
+				<tr id="trFab" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFab" class="cpt">CptFab</span>
+					</td>
+					<td></td>
+					<td id="RbuFab" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trPrs" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptPrs" class="cpt">CptPrs</span>
+					</td>
+					<td></td>
+					<td id="RbuPrs" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trFil" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFil" class="cpt">CptFil</span>
+					</td>
+					<td></td>
+					<td id="RbuFil" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="tr11"><td colspan="11" height="3"></td></tr>
+				<tr id="tr12">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="tr13"><td colspan="11" height="3"></td></tr>
+				<tr id="trSmp" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSmp" class="cpt">CptSmp</span>
+					</td>
+					<td></td>
+					<td id="RbuSmp" colspan="5" align="left">
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+
+

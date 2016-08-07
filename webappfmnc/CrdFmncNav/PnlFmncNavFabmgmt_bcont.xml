@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>Fabmgmt_bcont</title>
+		<script>
+			function handleButFabExpandClick() {parent.parent.window.handleButExpandClick("LstFab");};
+			function handleButFabCollapseClick() {parent.parent.window.handleButCollapseClick("LstFab");};
+			function handleButFabViewClick() {parent.parent.window.handleButCrdopenClick("ButFabView");};
+			function handleButFabNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButFabNewcrd");};
+			function handleButFusExpandClick() {parent.parent.window.handleButExpandClick("LstFus");};
+			function handleButFusCollapseClick() {parent.parent.window.handleButCollapseClick("LstFus");};
+			function handleButFusViewClick() {parent.parent.window.handleButCrdopenClick("ButFusView");};
+			function handleButFusNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButFusNewcrd");};
+			function handleButTtyExpandClick() {parent.parent.window.handleButExpandClick("LstTty");};
+			function handleButTtyCollapseClick() {parent.parent.window.handleButCollapseClick("LstTty");};
+			function handleButTtyViewClick() {parent.parent.window.handleButCrdopenClick("ButTtyView");};
+			function handleButTtyNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButTtyNewcrd");};
+			function handleButTolExpandClick() {parent.parent.window.handleButExpandClick("LstTol");};
+			function handleButTolCollapseClick() {parent.parent.window.handleButCollapseClick("LstTol");};
+			function handleButTolViewClick() {parent.parent.window.handleButCrdopenClick("ButTolView");};
+			function handleButTolNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButTolNewcrd");};
+			function handleButFpjExpandClick() {parent.parent.window.handleButExpandClick("LstFpj");};
+			function handleButFpjCollapseClick() {parent.parent.window.handleButCollapseClick("LstFpj");};
+			function handleButFpjViewClick() {parent.parent.window.handleButCrdopenClick("ButFpjView");};
+			function handleButFpjNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButFpjNewcrd");};
+			function handleButBilExpandClick() {parent.parent.window.handleButExpandClick("LstBil");};
+			function handleButBilCollapseClick() {parent.parent.window.handleButCollapseClick("LstBil");};
+			function handleButBilViewClick() {parent.parent.window.handleButCrdopenClick("ButBilView");};
+			function handleButBilNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButBilNewcrd");};
+<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<table cellspacing="0" border="0" cellpadding="0"><form action="">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trFab" class="show">
+					<td height="25"></td>
+					<td id="ldynFab" align="right">
+					</td>
+					<td></td>
+					<td id="dynFab" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynFab" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trFab2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trFus" class="show">
+					<td height="25"></td>
+					<td id="ldynFus" align="right">
+					</td>
+					<td></td>
+					<td id="dynFus" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynFus" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trFus2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trTty" class="show">
+					<td height="25"></td>
+					<td id="ldynTty" align="right">
+					</td>
+					<td></td>
+					<td id="dynTty" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynTty" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trTty2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trTol" class="show">
+					<td height="25"></td>
+					<td id="ldynTol" align="right">
+					</td>
+					<td></td>
+					<td id="dynTol" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynTol" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trTol2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trFpj" class="show">
+					<td height="25"></td>
+					<td id="ldynFpj" align="right">
+					</td>
+					<td></td>
+					<td id="dynFpj" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynFpj" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trFpj2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trBil" class="show">
+					<td height="25"></td>
+					<td id="ldynBil" align="right">
+					</td>
+					<td></td>
+					<td id="dynBil" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynBil" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trBil2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+
+

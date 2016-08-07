@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>Detail_bcont</title>
+		<script>
+			function handleTxfTitKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfTit","",evt);};
+			function handleTxfTitChange() {parent.parent.window.handleTxfChange(document,"TxfTit","");};
+			function handleButActViewClick() {parent.parent.window.handleButCrdopenClick("ButActView");};
+			function handlePupRltChange() {parent.parent.window.handlePupChange(document,"PupRlt","xs");};
+			function handleButRluViewClick() {parent.parent.window.handleButCrdopenClick("ButRluView");};
+			function handleButFcfExpandClick() {parent.parent.window.handleButExpandClick("LstFcf");};
+			function handleButFcfCollapseClick() {parent.parent.window.handleButCollapseClick("LstFcf");};
+			function handleTxfStaKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfSta","",evt);};
+			function handleTxfStaChange() {parent.parent.window.handleTxfChange(document,"TxfSta","");};
+			function handleButPrsViewClick() {parent.parent.window.handleButCrdopenClick("ButPrsView");};
+<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail.css" rel="styleSheet" type="text/css"/>
+<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<table cellspacing="0" border="0" cellpadding="0"><form action="">
+			<colgroup>
+				<col width="5"/>
+				<col width="155"/>
+				<col width="5"/>
+				<col width="78"/>
+				<col width="2"/>
+				<col width="38"/>
+				<col width="2"/>
+				<col width="78"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="74"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trTit" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptTit" class="cpt">CptTit</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfTit" class="txf" type="text" value="TxfTit" onchange="handleTxfTitChange()" onkeypress="return handleTxfTitKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trA1"><td colspan="11" height="3"></td></tr>
+				<tr id="trA2">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="trA3"><td colspan="11" height="3"></td></tr>
+				<tr id="trAct" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptAct" class="cpt">CptAct</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxtAct" class="txfnoed" type="text" readonly="readonly" value="TxtAct"/>
+					</td>
+					<td></td>
+					<td id="rdynAct" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trRlu" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptRlu" class="cpt">CptRlu</span>
+					</td>
+					<td></td>
+					<td colspan="2" align="left">
+						<select id="PupRlt" class="pupxs" size="1" onchange="handlePupRltChange()"/>
+					</td>
+					<td colspan="3" align="left">
+						<input id="TxtRlu" class="txfsnoed" type="text" readonly="readonly" value="TxtRlu"/>
+					</td>
+					<td></td>
+					<td colspan="2" align="left">
+						<img id="ButRluView" class="but" src="../icon/view.png" width="16" height="16" alt="ButRluView" onmouseover="src='../icon/view_hlt.png'" onmouseout="src='../icon/view.png'" onclick="handleButRluViewClick()"/>
+					</td>
+				</tr>
+				<tr id="trStp" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptStp" class="cpt">CptStp</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxtStp" class="txfnoed" type="text" readonly="readonly" value="TxtStp"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFcf" class="show">
+					<td height="25"></td>
+					<td id="ldynFcf" align="right">
+					</td>
+					<td></td>
+					<td id="dynFcf" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFcf2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trSta" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSta" class="cpt">CptSta</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfSta" class="txf" type="text" value="TxfSta" onchange="handleTxfStaChange()" onkeypress="return handleTxfStaKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trPrs" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptPrs" class="cpt">CptPrs</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxtPrs" class="txfnoed" type="text" readonly="readonly" value="TxtPrs"/>
+					</td>
+					<td></td>
+					<td id="rdynPrs" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+
+

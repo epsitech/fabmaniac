@@ -1,0 +1,38 @@
+# file Makefile
+# make file for CrdFmncOrg card job handler, release fmnccmbd_ungenio
+# author Alexander Wirthmueller
+# date created: 7 Mar 2016
+# modified: 7 Mar 2016
+
+SRCROOT = /Users/epsi/src
+LIBROOT = /Users/epsi/lib
+
+CC = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread -DFMNCCMBD
+
+INCS = -I/opt/local/include/libxml2 -I/usr/local/mysql/include -I/opt/local/include/postgresql84 -I/opt/local/include -I/usr/include
+INCS += -I$(SRCROOT)
+INCS += -I$(SRCROOT)/dbsfmnc
+INCS += -I$(SRCROOT)/fmnccmbd -I$(SRCROOT)/fmnccmbd/IexFmnc -I$(SRCROOT)/fmnccmbd/VecFmnc
+
+OBJECTS += CrdFmncOrg.o DlgFmncOrgExporg.o DlgFmncOrgImporg.o DlgFmncOrgNew.o PnlFmncOrgRec.o PnlFmncOrgDetail.o PnlFmncOrgKStocklcn.o QryFmncOrgKStocklcn.o PnlFmncOrgADetail.o QryFmncOrgADetail.o PnlFmncOrgBio1NFabproject.o QryFmncOrgBio1NFabproject.o PnlFmncOrgMnf1NTool.o QryFmncOrgMnf1NTool.o PnlFmncOrg1NArticle.o QryFmncOrg1NArticle.o PnlFmncOrgPco1NPurchorder.o QryFmncOrgPco1NPurchorder.o PnlFmncOrgSpl1NPurchorder.o QryFmncOrgSpl1NPurchorder.o PnlFmncOrg1NStockitem.o QryFmncOrg1NStockitem.o PnlFmncOrgSup1NOrg.o QryFmncOrgSup1NOrg.o PnlFmncOrgHk1NAddress.o QryFmncOrgHk1NAddress.o PnlFmncOrgMNPerson.o QryFmncOrgMNPerson.o PnlFmncOrgSvcMNTool.o QryFmncOrgSvcMNTool.o PnlFmncOrgMNArticle.o QryFmncOrgMNArticle.o PnlFmncOrgHeadbar.o PnlFmncOrgList.o QryFmncOrgList.o
+
+LIBRARY = libcrdfmncorg
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CC) $(CPPFLAGS) $(INCS) -o $@ -c $<
+
+all:	$(LIBRARY)
+
+$(LIBRARY):	$(OBJECTS)
+	ar rcs $(LIBRARY).a $(OBJECTS)
+	rm -f *.o
+
+install:
+	cp $(LIBRARY).a $(LIBROOT)/fmnccmbd/
+
+clean:
+	rm -f *.o
+

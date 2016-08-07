@@ -1,0 +1,1493 @@
+- ImeIAVKeylistKey1.srefKlsIxFmncVKeylist	sref	Avail	Implied
+- KlstFmncKAMOrgDetailType	eml		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	e-mail	
+	- dech	E-Mail	
+	- frch	courriel	
+- KlstFmncKAMOrgDetailType	fax		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	fax	
+	- dech	Telefax	
+	- frch	t\u00e9l\u00e9fax	
+- KlstFmncKAMOrgDetailType	mbl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	mobile	
+	- dech	Handy	
+	- frch	portable	
+- KlstFmncKAMOrgDetailType	tel		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	phone	
+	- dech	Telefon	
+	- frch	t\u00e9l\u00e9phone	
+- KlstFmncKAMPersonDetailType	eml		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	e-mail	
+	- dech	E-Mail	
+	- frch	courriel	
+- KlstFmncKAMPersonDetailType	fax		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	fax	
+	- dech	Telefax	
+	- frch	t\u00e9l\u00e9fax	
+- KlstFmncKAMPersonDetailType	mbl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	mobile	
+	- dech	Handy	
+	- frch	portable	
+- KlstFmncKAMPersonDetailType	tel		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	phone	
+	- dech	Telefon	
+	- frch	t\u00e9l\u00e9phone	
+- KlstFmncKAMSampleParKey	shp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	shape	
+	- dech	Form	
+	- frch	forme	
+- KlstFmncKAMSampleParKey	size		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	size	
+	- dech	Gr\u00f6\u00dfe	
+	- frch	taille	
+- KlstFmncKAMSampleParVal	rect		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	rectangular	
+	- dech	rechteckig	
+	- frch	rectangulaire	
+- KlstFmncKAMToolAvlAvltype	favl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	freely available	
+	- dech	frei verf\u00fcgbar	
+	- frch	disponible sans restriction	
+- KlstFmncKAMToolAvlAvltype	res		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	reservation mandatory	
+	- dech	reservierungspflichtig	
+	- frch	r\u00e9s\u00e9rvation obligatoire	
+- KlstFmncKAMToolAvlAvltype	tch		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	consult technician	
+	- dech	Techniker kontaktieren	
+	- frch	consulter technicien	
+- KlstFmncKAMToolAvlAvltype	navl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	not available	
+	- dech	nicht verf\u00fcgbar	
+	- frch	pas disponible	
+- KlstFmncKAMToolResRestype	usr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	user	
+	- dech	Benutzer	
+	- frch	utilisateur	
+- KlstFmncKAMToolResRestype	trn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	training	
+	- dech	Schulung	
+	- frch	formation	
+- KlstFmncKAMToolResRestype	mnt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	maintenance	
+	- dech	Wartung	
+	- frch	maintenance	
+- KlstFmncKMAddressCountry	ac		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Ascension Island	
+	- dech	Ascension	
+	- frch	\u00celes d'Ascension	
+- KlstFmncKMAddressCountry	ad		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Andorra	
+	- dech	Andorra	
+	- frch	Andorre	
+- KlstFmncKMAddressCountry	ae		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	United Arab Emirates	
+	- dech	Vereinigte Arabische Emirate	
+	- frch	\u00c9mirats Arabes Unis	
+- KlstFmncKMAddressCountry	af		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Afghanistan	
+	- dech	Afghanistan	
+	- frch	Afghanistan	
+- KlstFmncKMAddressCountry	ag		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Antigua and Barbuda	
+	- dech	Antigua und Barbuda	
+	- frch	Antigua-et-Barbuda	
+- KlstFmncKMAddressCountry	ai		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Anguilla	
+	- dech	Anguilla	
+	- frch	Anguilla	
+- KlstFmncKMAddressCountry	al		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Albania	
+	- dech	Albanien	
+	- frch	Albanie	
+- KlstFmncKMAddressCountry	am		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Armenia	
+	- dech	Armenien	
+	- frch	Arm\u00e9nie	
+- KlstFmncKMAddressCountry	an		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Netherlands Antilles	
+	- dech	Niederl\u00e4ndische Antillen	
+	- frch	Antilles N\u00e9erlandaises	
+- KlstFmncKMAddressCountry	ao		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Angola	
+	- dech	Angola	
+	- frch	Angola	
+- KlstFmncKMAddressCountry	aq		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Antarctica	
+	- dech	Antarktis	
+	- frch	Antarctique	
+- KlstFmncKMAddressCountry	ar		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Argentina	
+	- dech	Argentinien	
+	- frch	Argentine	
+- KlstFmncKMAddressCountry	as		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	American Samoa	
+	- dech	Amerikanisch-Samoa	
+	- frch	Samoa Am\u00e9ricaines	
+- KlstFmncKMAddressCountry	at		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Austria	
+	- dech	\u00d6sterreich	
+	- frch	Autriche	
+- KlstFmncKMAddressCountry	au		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Australia	
+	- dech	Australien	
+	- frch	Australie	
+- KlstFmncKMAddressCountry	aw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Aruba	
+	- dech	Aruba	
+	- frch	Aruba	
+- KlstFmncKMAddressCountry	az		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Azerbaijan	
+	- dech	Aserbaidschan	
+	- frch	Azerba\u00efdjan	
+- KlstFmncKMAddressCountry	ba		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bosnia and Herzegovina	
+	- dech	Bosnien und Herzegovina	
+	- frch	Bosnie-Herz\u00e9govine	
+- KlstFmncKMAddressCountry	bb		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Barbados	
+	- dech	Barbados	
+	- frch	Barbade	
+- KlstFmncKMAddressCountry	bd		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bangladesh	
+	- dech	Bangladesch	
+	- frch	Bangladesh	
+- KlstFmncKMAddressCountry	be		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Belgium	
+	- dech	Belgien	
+	- frch	Belgique	
+- KlstFmncKMAddressCountry	bf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Burkina Faso	
+	- dech	Burkina Faso	
+	- frch	Burkina Faso	
+- KlstFmncKMAddressCountry	bg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bulgaria	
+	- dech	Bulgarien	
+	- frch	Bulgarie	
+- KlstFmncKMAddressCountry	bh		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bahrain	
+	- dech	Bahrain	
+	- frch	Bahre\u00efn	
+- KlstFmncKMAddressCountry	bi		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Burundi	
+	- dech	Burundi	
+	- frch	Burundi	
+- KlstFmncKMAddressCountry	bj		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Benin	
+	- dech	Benin	
+	- frch	B\u00e9nin	
+- KlstFmncKMAddressCountry	bm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bermuda	
+	- dech	Bermuda	
+	- frch	Bermudes	
+- KlstFmncKMAddressCountry	bn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Brunei	
+	- dech	Brunei	
+	- frch	Brun\u00e9i	
+- KlstFmncKMAddressCountry	bo		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bolivia	
+	- dech	Bolivien	
+	- frch	Bolivie	
+- KlstFmncKMAddressCountry	br		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Brazil	
+	- dech	Brasilien	
+	- frch	Br\u00e9sil	
+- KlstFmncKMAddressCountry	bs		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bahamas	
+	- dech	Bahamas	
+	- frch	Bahamas	
+- KlstFmncKMAddressCountry	bt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bhutan	
+	- dech	Bhutan	
+	- frch	Bhoutan	
+- KlstFmncKMAddressCountry	bv		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Bouvet Island	
+	- dech	Bouvetinsel	
+	- frch	\u00cele Bouvet	
+- KlstFmncKMAddressCountry	bw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Botswana	
+	- dech	Botsuana	
+	- frch	Botswana	
+- KlstFmncKMAddressCountry	by		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Belarus	
+	- dech	Weissrussland	
+	- frch	B\u00e9larus	
+- KlstFmncKMAddressCountry	bz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Belize	
+	- dech	Belize	
+	- frch	Belize	
+- KlstFmncKMAddressCountry	ca		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Canada	
+	- dech	Kanada	
+	- frch	Canada	
+- KlstFmncKMAddressCountry	cc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cocos Islands	
+	- dech	Kokosinseln	
+	- frch	\u00celes Cocos	
+- KlstFmncKMAddressCountry	cd		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Republic of Congo	
+	- dech	Kongo	
+	- frch	R\u00e9publique du Congo	
+- KlstFmncKMAddressCountry	cf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Central African Republic	
+	- dech	Zentralafrikanische Republik	
+	- frch	R\u00e9publique Centrafricaine	
+- KlstFmncKMAddressCountry	ch		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Switzerland	
+	- dech	Schweiz	
+	- frch	Suisse	
+- KlstFmncKMAddressCountry	ci		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Ivory Coast	
+	- dech	Elfenbeink\u00fcste	
+	- frch	C\u00f4te D'ivoire	
+- KlstFmncKMAddressCountry	ck		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cook Islands	
+	- dech	Cookinseln	
+	- frch	\u00celes Cook	
+- KlstFmncKMAddressCountry	cl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Chile	
+	- dech	Chile	
+	- frch	Chili	
+- KlstFmncKMAddressCountry	cm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cameroon	
+	- dech	Kamerun	
+	- frch	Cameroun	
+- KlstFmncKMAddressCountry	cn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	China	
+	- dech	China	
+	- frch	Chine	
+- KlstFmncKMAddressCountry	co		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Colombia	
+	- dech	Kolumbien	
+	- frch	Colombie	
+- KlstFmncKMAddressCountry	cr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Costa Rica	
+	- dech	Costa Rica	
+	- frch	Costa Rica	
+- KlstFmncKMAddressCountry	cu		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cuba	
+	- dech	Kuba	
+	- frch	Cuba	
+- KlstFmncKMAddressCountry	cv		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cape Verde	
+	- dech	Kap Verde	
+	- frch	Cap-Vert	
+- KlstFmncKMAddressCountry	cx		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Christmas Island	
+	- dech	Weihnachtsinsel	
+	- frch	\u00cele Christmas	
+- KlstFmncKMAddressCountry	cy		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cyprus	
+	- dech	Zypern	
+	- frch	Chypre	
+- KlstFmncKMAddressCountry	cz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Czech Republic	
+	- dech	Tschechische Republik	
+	- frch	R\u00e9publique Tch\u00e8que	
+- KlstFmncKMAddressCountry	de		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Germany	
+	- dech	Deutschland	
+	- frch	Allemagne	
+- KlstFmncKMAddressCountry	dj		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Djibouti	
+	- dech	Dschibuti	
+	- frch	Djibouti	
+- KlstFmncKMAddressCountry	dk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Denmark	
+	- dech	D\u00e4nemark	
+	- frch	Danemark	
+- KlstFmncKMAddressCountry	dm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Dominica	
+	- dech	Dominica	
+	- frch	Dominique	
+- KlstFmncKMAddressCountry	do		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Dominican Republic	
+	- dech	Dominikanische Republik	
+	- frch	R\u00e9publique Dominicaine	
+- KlstFmncKMAddressCountry	dz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Algeria	
+	- dech	Algerien	
+	- frch	Alg\u00e9rie	
+- KlstFmncKMAddressCountry	ec		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Ecuador	
+	- dech	Ecuador	
+	- frch	\u00c9quateur	
+- KlstFmncKMAddressCountry	ee		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Estonia	
+	- dech	Estland	
+	- frch	Estonie	
+- KlstFmncKMAddressCountry	eg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Egypt	
+	- dech	\u00c4gypten	
+	- frch	\u00c9gypte	
+- KlstFmncKMAddressCountry	eh		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Western Sahara	
+	- dech	Westsahara	
+	- frch	Sahara Occidental	
+- KlstFmncKMAddressCountry	er		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Eritrea	
+	- dech	Eritrea	
+	- frch	\u00c9rythr\u00e9e	
+- KlstFmncKMAddressCountry	es		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Spain	
+	- dech	Spanien	
+	- frch	Espagne	
+- KlstFmncKMAddressCountry	et		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Ethiopia	
+	- dech	\u00c4thiopien	
+	- frch	\u00c9thiopie	
+- KlstFmncKMAddressCountry	fi		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Finland	
+	- dech	Finnland	
+	- frch	Finlande	
+- KlstFmncKMAddressCountry	fj		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Fiji	
+	- dech	Fidschi	
+	- frch	Fidji	
+- KlstFmncKMAddressCountry	fk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Falkland Islands	
+	- dech	Falklandinseln	
+	- frch	\u00celes Falkland	
+- KlstFmncKMAddressCountry	fm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Micronesia	
+	- dech	Mikronesien	
+	- frch	Micron\u00e9sie	
+- KlstFmncKMAddressCountry	fo		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Faroe Islands	
+	- dech	F\u00e4r\u00f6er	
+	- frch	\u00celes F\u00e9ro\u00e9	
+- KlstFmncKMAddressCountry	fr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	France	
+	- dech	Frankreich	
+	- frch	France	
+- KlstFmncKMAddressCountry	ga		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Gabon	
+	- dech	Gabun	
+	- frch	Gabon	
+- KlstFmncKMAddressCountry	gd		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Grenada	
+	- dech	Grenada	
+	- frch	Grenade	
+- KlstFmncKMAddressCountry	ge		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Georgia	
+	- dech	Georgien	
+	- frch	G\u00e9orgie	
+- KlstFmncKMAddressCountry	gf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	French Guiana	
+	- dech	Franz\u00f6sisch-Guayana	
+	- frch	Guyane Fran\u00e7aise	
+- KlstFmncKMAddressCountry	gg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Guernsey	
+	- dech	Guernsey	
+	- frch	Guernesey	
+- KlstFmncKMAddressCountry	gh		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Ghana	
+	- dech	Ghana	
+	- frch	Ghana	
+- KlstFmncKMAddressCountry	gi		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Gibraltar	
+	- dech	Gibraltar	
+	- frch	Gibraltar	
+- KlstFmncKMAddressCountry	gl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Greenland	
+	- dech	Gr\u00f6nland	
+	- frch	Groenland	
+- KlstFmncKMAddressCountry	gm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Gambia	
+	- dech	Gambia	
+	- frch	Gambie	
+- KlstFmncKMAddressCountry	gn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Guinea	
+	- dech	Guinea	
+	- frch	Guin\u00e9e	
+- KlstFmncKMAddressCountry	gp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Guadeloupe	
+	- dech	Guadeloupe	
+	- frch	Guadeloupe	
+- KlstFmncKMAddressCountry	gq		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Equatorial Guinea	
+	- dech	\u00c4quatorialguinea	
+	- frch	Guin\u00e9e \u00c9quatoriale	
+- KlstFmncKMAddressCountry	gr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Greece	
+	- dech	Griechenland	
+	- frch	Gr\u00e8ce	
+- KlstFmncKMAddressCountry	gs		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	South Georgia and South Sandwich Islands	
+	- dech	S\u00fcdgeorgien und s\u00fcdl. Sandwichinseln	
+	- frch	G\u00e9orgie du Sud et \u00celes Sandwich du Sud	
+- KlstFmncKMAddressCountry	gt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Guatemala	
+	- dech	Guatemala	
+	- frch	Guatemala	
+- KlstFmncKMAddressCountry	gu		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Guam	
+	- dech	Guam	
+	- frch	Guam	
+- KlstFmncKMAddressCountry	gw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Guinea-Bissau	
+	- dech	Guinea-Bissau	
+	- frch	Guin\u00e9e-Bissau	
+- KlstFmncKMAddressCountry	gy		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Guyana	
+	- dech	Guyana	
+	- frch	Guyana	
+- KlstFmncKMAddressCountry	hk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Hong Kong	
+	- dech	Hongkong	
+	- frch	Hong-Kong	
+- KlstFmncKMAddressCountry	hm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Heard and Mc Donald Islands	
+	- dech	Heard und die Mcdonaldinseln	
+	- frch	\u00cele Heard et \u00celes Mcdonald	
+- KlstFmncKMAddressCountry	hn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Honduras	
+	- dech	Honduras	
+	- frch	Honduras	
+- KlstFmncKMAddressCountry	hr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Croatia	
+	- dech	Kroatien	
+	- frch	Croatie	
+- KlstFmncKMAddressCountry	ht		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Haiti	
+	- dech	Haiti	
+	- frch	Ha\u00efti	
+- KlstFmncKMAddressCountry	hu		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Hungary	
+	- dech	Ungarn	
+	- frch	Hongrie	
+- KlstFmncKMAddressCountry	id		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Indonesia	
+	- dech	Indonesien	
+	- frch	Indon\u00e9sie	
+- KlstFmncKMAddressCountry	ie		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Ireland	
+	- dech	Irland	
+	- frch	Irlande	
+- KlstFmncKMAddressCountry	il		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Israel	
+	- dech	Israel	
+	- frch	Isra\u00c3\u00abl	
+- KlstFmncKMAddressCountry	im		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Isle of Man	
+	- dech	Insel Man	
+	- frch	\u00cele de Man	
+- KlstFmncKMAddressCountry	in		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	India	
+	- dech	Indien	
+	- frch	Inde	
+- KlstFmncKMAddressCountry	io		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	British Indian Ocean Territory	
+	- dech	Britisches Territorium im Indischen Ozean	
+	- frch	Territoire Britannique de l'Oc\u00e9an Indien	
+- KlstFmncKMAddressCountry	iq		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Iraq	
+	- dech	Irak	
+	- frch	Iraq	
+- KlstFmncKMAddressCountry	ir		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Iran	
+	- dech	Iran	
+	- frch	Iran	
+- KlstFmncKMAddressCountry	is		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Iceland	
+	- dech	Island	
+	- frch	Islande	
+- KlstFmncKMAddressCountry	it		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Italy	
+	- dech	Italien	
+	- frch	Italie	
+- KlstFmncKMAddressCountry	je		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Jersey	
+	- dech	Jersey	
+	- frch	Jersey	
+- KlstFmncKMAddressCountry	jm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Jamaica	
+	- dech	Jamaika	
+	- frch	Jama\u00efque	
+- KlstFmncKMAddressCountry	jo		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Jordan	
+	- dech	Jordanien	
+	- frch	Jordanie	
+- KlstFmncKMAddressCountry	jp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Japan	
+	- dech	Japan	
+	- frch	Japon	
+- KlstFmncKMAddressCountry	ke		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Kenya	
+	- dech	Kenya	
+	- frch	Kenya	
+- KlstFmncKMAddressCountry	kg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Kyrgyzstan	
+	- dech	Kirgisistan	
+	- frch	Kirghizistan	
+- KlstFmncKMAddressCountry	kh		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cambodia	
+	- dech	Kambodscha	
+	- frch	Cambodge	
+- KlstFmncKMAddressCountry	ki		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Kiribati	
+	- dech	Kiribati	
+	- frch	Kiribati	
+- KlstFmncKMAddressCountry	km		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Comoros	
+	- dech	Komoren	
+	- frch	Comores	
+- KlstFmncKMAddressCountry	kn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Saint Kitts and Nevis	
+	- dech	St. Kitts und Nevis	
+	- frch	Saint-Kitts-et-Nevis	
+- KlstFmncKMAddressCountry	kp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	North Korea	
+	- dech	Nordkorea	
+	- frch	Cor\u00e9e du Nord	
+- KlstFmncKMAddressCountry	kr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	South Korea	
+	- dech	S\u00fcdkorea	
+	- frch	Cor\u00e9e du Sud	
+- KlstFmncKMAddressCountry	kw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Kuwait	
+	- dech	Kuwait	
+	- frch	Kowe\u00eft	
+- KlstFmncKMAddressCountry	ky		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Cayman Islands	
+	- dech	Kaimaninseln	
+	- frch	\u00celes Ca\u00efmanes	
+- KlstFmncKMAddressCountry	kz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Kazakhstan	
+	- dech	Kasachstan	
+	- frch	Kazakstan	
+- KlstFmncKMAddressCountry	la		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Lao	
+	- dech	Laos	
+	- frch	Lao	
+- KlstFmncKMAddressCountry	lb		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Lebanon	
+	- dech	Libanon	
+	- frch	Liban	
+- KlstFmncKMAddressCountry	lc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Saint Lucia	
+	- dech	St. Lucia	
+	- frch	Sainte-Lucie	
+- KlstFmncKMAddressCountry	li		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Liechtenstein	
+	- dech	Liechtenstein	
+	- frch	Liechtenstein	
+- KlstFmncKMAddressCountry	lk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Sri Lanka	
+	- dech	Sri Lanka	
+	- frch	Sri Lanka	
+- KlstFmncKMAddressCountry	lr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Liberia	
+	- dech	Liberia	
+	- frch	Lib\u00e9ria	
+- KlstFmncKMAddressCountry	ls		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Lesotho	
+	- dech	Lesotho	
+	- frch	Lesotho	
+- KlstFmncKMAddressCountry	lt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Lithuania	
+	- dech	Litauen	
+	- frch	Lituanie	
+- KlstFmncKMAddressCountry	lu		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Luxembourg	
+	- dech	Luxemburg	
+	- frch	Luxembourg	
+- KlstFmncKMAddressCountry	lv		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Latvia	
+	- dech	Lettland	
+	- frch	Lettonie	
+- KlstFmncKMAddressCountry	ly		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Libya	
+	- dech	Libyen	
+	- frch	Libye	
+- KlstFmncKMAddressCountry	ma		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Morocco	
+	- dech	Marokko	
+	- frch	Maroc	
+- KlstFmncKMAddressCountry	mc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Monaco	
+	- dech	Monaco	
+	- frch	Monaco	
+- KlstFmncKMAddressCountry	md		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Moldova	
+	- dech	Moldau	
+	- frch	Moldova	
+- KlstFmncKMAddressCountry	me		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Montenegro	
+	- dech	Montenegro	
+	- frch	Mont\u00e9n\u00e9gro	
+- KlstFmncKMAddressCountry	mg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Madagascar	
+	- dech	Madagaskar	
+	- frch	Madagascar	
+- KlstFmncKMAddressCountry	mh		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Marshall Islands	
+	- dech	Marshallinseln	
+	- frch	\u00celes Marshall	
+- KlstFmncKMAddressCountry	mk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Macedonia	
+	- dech	Mazedonien	
+	- frch	Mac\u00e9doine	
+- KlstFmncKMAddressCountry	ml		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Mali	
+	- dech	Mali	
+	- frch	Mali	
+- KlstFmncKMAddressCountry	mm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Myanmar	
+	- dech	Myanmar	
+	- frch	Myanmar	
+- KlstFmncKMAddressCountry	mn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Mongolia	
+	- dech	Mongolei	
+	- frch	Mongolie	
+- KlstFmncKMAddressCountry	mo		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Macau	
+	- dech	Macau	
+	- frch	Macao	
+- KlstFmncKMAddressCountry	mp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Northern Mariana Islands	
+	- dech	N\u00f6rdliche Marianen	
+	- frch	\u00celes Mariannes du Nord	
+- KlstFmncKMAddressCountry	mq		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Martinique	
+	- dech	Martinique	
+	- frch	Martinique	
+- KlstFmncKMAddressCountry	mr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Mauritania	
+	- dech	Mauretanien	
+	- frch	Mauritanie	
+- KlstFmncKMAddressCountry	ms		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Montserrat	
+	- dech	Montserrat	
+	- frch	Montserrat	
+- KlstFmncKMAddressCountry	mt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Malta	
+	- dech	Malta	
+	- frch	Malte	
+- KlstFmncKMAddressCountry	mu		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Mauritius	
+	- dech	Mauritius	
+	- frch	\u00cele Maurice	
+- KlstFmncKMAddressCountry	mv		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Maldives	
+	- dech	Malediven	
+	- frch	Maldives	
+- KlstFmncKMAddressCountry	mw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Malawi	
+	- dech	Malawi	
+	- frch	Malawi	
+- KlstFmncKMAddressCountry	mx		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Mexico	
+	- dech	Mexiko	
+	- frch	Mexique	
+- KlstFmncKMAddressCountry	my		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Malaysia	
+	- dech	Malaysia	
+	- frch	Malaisie	
+- KlstFmncKMAddressCountry	mz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Mozambique	
+	- dech	Mosambik	
+	- frch	Mozambique	
+- KlstFmncKMAddressCountry	na		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Namibia	
+	- dech	Namibia	
+	- frch	Namibie	
+- KlstFmncKMAddressCountry	nc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	New Caledonia	
+	- dech	Neukaledonien	
+	- frch	Nouvelle-Cal\u00e9donie	
+- KlstFmncKMAddressCountry	ne		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Niger	
+	- dech	Niger	
+	- frch	Niger	
+- KlstFmncKMAddressCountry	nf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Norfolk Island	
+	- dech	Norfolkinsel	
+	- frch	\u00cele Norfolk	
+- KlstFmncKMAddressCountry	ng		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Nigeria	
+	- dech	Nigeria	
+	- frch	Nig\u00e9ria	
+- KlstFmncKMAddressCountry	ni		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Nicaragua	
+	- dech	Nicaragua	
+	- frch	Nicaragua	
+- KlstFmncKMAddressCountry	nl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Netherlands	
+	- dech	Niederlande	
+	- frch	Pays-Bas	
+- KlstFmncKMAddressCountry	no		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Norway	
+	- dech	Norwegen	
+	- frch	Norv\u00e8ge	
+- KlstFmncKMAddressCountry	np		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Nepal	
+	- dech	Nepal	
+	- frch	N\u00e9pal	
+- KlstFmncKMAddressCountry	nr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Nauru	
+	- dech	Nauru	
+	- frch	Nauru	
+- KlstFmncKMAddressCountry	nu		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Niue	
+	- dech	Niue	
+	- frch	Niou\u00e9	
+- KlstFmncKMAddressCountry	nz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	New Zealand	
+	- dech	Neuseeland	
+	- frch	Nouvelle-Z\u00e9lande	
+- KlstFmncKMAddressCountry	om		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Oman	
+	- dech	Oman	
+	- frch	Oman	
+- KlstFmncKMAddressCountry	pa		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Panama	
+	- dech	Panama	
+	- frch	Panama	
+- KlstFmncKMAddressCountry	pe		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Peru	
+	- dech	Peru	
+	- frch	P\u00e9rou	
+- KlstFmncKMAddressCountry	pf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	French Polynesia	
+	- dech	Franz\u00f6sisch-Polynesien	
+	- frch	Polyn\u00e9sie Fran\u00e7aise	
+- KlstFmncKMAddressCountry	pg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Papua New Guinea	
+	- dech	Papua-Neuguinea	
+	- frch	Papouasie-Nouvelle-Guin\u00e9e	
+- KlstFmncKMAddressCountry	ph		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Philippines	
+	- dech	Philippinen	
+	- frch	Philippines	
+- KlstFmncKMAddressCountry	pk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Pakistan	
+	- dech	Pakistan	
+	- frch	Pakistan	
+- KlstFmncKMAddressCountry	pl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Poland	
+	- dech	Polen	
+	- frch	Pologne	
+- KlstFmncKMAddressCountry	pm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	St. Pierre and Miquelon	
+	- dech	St. Pierre und Miquelon	
+	- frch	Saint-Pierre-et-Miquelon	
+- KlstFmncKMAddressCountry	pn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Pitcairn Island	
+	- dech	Pitcairninseln	
+	- frch	Pitcairn	
+- KlstFmncKMAddressCountry	pr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Puerto Rico	
+	- dech	Puerto Rico	
+	- frch	Porto Rico	
+- KlstFmncKMAddressCountry	ps		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Palestinian National Authority	
+	- dech	Pal\u00e4stinensische Autonomiegebiete	
+	- frch	Autorit\u00e9 Nationale Palestinienne	
+- KlstFmncKMAddressCountry	pt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Portugal	
+	- dech	Portugal	
+	- frch	Portugal	
+- KlstFmncKMAddressCountry	pw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Palau	
+	- dech	Palau	
+	- frch	Palaos	
+- KlstFmncKMAddressCountry	py		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Paraguay	
+	- dech	Paraguay	
+	- frch	Paraguay	
+- KlstFmncKMAddressCountry	qa		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Qatar	
+	- dech	Katar	
+	- frch	Qatar	
+- KlstFmncKMAddressCountry	re		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Reunion Island	
+	- dech	R\u00e9union	
+	- frch	\u00cele de la R\u00e9union	
+- KlstFmncKMAddressCountry	ro		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Romania	
+	- dech	Rum\u00e4nien	
+	- frch	Roumanie	
+- KlstFmncKMAddressCountry	rs		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Serbia	
+	- dech	Serbien	
+	- frch	Serbie	
+- KlstFmncKMAddressCountry	ru		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Russia	
+	- dech	Russland	
+	- frch	Russie	
+- KlstFmncKMAddressCountry	rw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Rwanda	
+	- dech	Ruanda	
+	- frch	Rwanda	
+- KlstFmncKMAddressCountry	sa		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Saudi Arabia	
+	- dech	Saudi-Arabien	
+	- frch	Arabie Saoudite	
+- KlstFmncKMAddressCountry	sb		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Solomon Islands	
+	- dech	Salomonen	
+	- frch	\u00celes Salomon	
+- KlstFmncKMAddressCountry	sc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Seychelles	
+	- dech	Seychellen	
+	- frch	Seychelles	
+- KlstFmncKMAddressCountry	sd		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Sudan	
+	- dech	Sudan	
+	- frch	Soudan	
+- KlstFmncKMAddressCountry	se		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Sweden	
+	- dech	Schweden	
+	- frch	Su\u00e8de	
+- KlstFmncKMAddressCountry	sg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Singapore	
+	- dech	Singapur	
+	- frch	Singapour	
+- KlstFmncKMAddressCountry	sh		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Saint Helena	
+	- dech	St. Helena	
+	- frch	Sainte-H\u00e9l\u00e8ne	
+- KlstFmncKMAddressCountry	si		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Slovenia	
+	- dech	Slowenien	
+	- frch	Slov\u00e9nie	
+- KlstFmncKMAddressCountry	sj		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Svalbard and Jan Mayen Islands	
+	- dech	Svalbard und Jan Mayen	
+	- frch	Svalbard et \u00cele Jan Mayen	
+- KlstFmncKMAddressCountry	sk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Slovakia	
+	- dech	Slowakei	
+	- frch	Slovaquie	
+- KlstFmncKMAddressCountry	sl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Sierra Leone	
+	- dech	Sierra Leone	
+	- frch	Sierra Leone	
+- KlstFmncKMAddressCountry	sm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	San Marino	
+	- dech	San Marino	
+	- frch	Saint-Marin	
+- KlstFmncKMAddressCountry	sn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Senegal	
+	- dech	Senegal	
+	- frch	S\u00e9n\u00e9gal	
+- KlstFmncKMAddressCountry	so		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Somalia	
+	- dech	Somalia	
+	- frch	Somalie	
+- KlstFmncKMAddressCountry	sr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Suriname	
+	- dech	Suriname	
+	- frch	Suriname	
+- KlstFmncKMAddressCountry	st		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	S\u00e3o Tome and Pr\u00edncipe	
+	- dech	S\u00e3o Tom\u00e9 und Pr\u00edncipe	
+	- frch	S\u00e3o Tom\u00e9-et-Pr\u00edncipe	
+- KlstFmncKMAddressCountry	sv		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	El Salvador	
+	- dech	El Salvador	
+	- frch	El Salvador	
+- KlstFmncKMAddressCountry	sy		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Syria	
+	- dech	Syrien	
+	- frch	Syrienne	
+- KlstFmncKMAddressCountry	sz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Swaziland	
+	- dech	Swasiland	
+	- frch	Swaziland	
+- KlstFmncKMAddressCountry	tc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Turks and Caicos Islands	
+	- dech	Turksund Caicosinseln	
+	- frch	\u00celes Turks et Ca\u00efques	
+- KlstFmncKMAddressCountry	td		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Chad	
+	- dech	Tschad	
+	- frch	Tchad	
+- KlstFmncKMAddressCountry	tf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	French Southern Territories	
+	- dech	Franz\u00f6sische S\u00fcd- und Antarktisgebiete	
+	- frch	Terres Australes Fran\u00e7aises	
+- KlstFmncKMAddressCountry	tg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Togo	
+	- dech	Togo	
+	- frch	Togo	
+- KlstFmncKMAddressCountry	th		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Thailand	
+	- dech	Thailand	
+	- frch	Tha\u00eflande	
+- KlstFmncKMAddressCountry	tj		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Tajikistan	
+	- dech	Tadschikistan	
+	- frch	Tadjikistan	
+- KlstFmncKMAddressCountry	tk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Tokelau	
+	- dech	Tokelau	
+	- frch	Tokelau	
+- KlstFmncKMAddressCountry	tl		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	East Timor	
+	- dech	Osttimor	
+	- frch	Timor Oriental	
+- KlstFmncKMAddressCountry	tm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Turkmenistan	
+	- dech	Turkmenistan	
+	- frch	Turkm\u00e9nistan	
+- KlstFmncKMAddressCountry	tn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Tunisia	
+	- dech	Tunesien	
+	- frch	Tunisie	
+- KlstFmncKMAddressCountry	to		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Tonga	
+	- dech	Tonga	
+	- frch	Tonga	
+- KlstFmncKMAddressCountry	tr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Turkey	
+	- dech	T\u00fcrkei	
+	- frch	Turquie	
+- KlstFmncKMAddressCountry	tt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Trinidad and Tobago	
+	- dech	Trinidad und Tobago	
+	- frch	Trinit\u00e9-et-Tobago	
+- KlstFmncKMAddressCountry	tv		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Tuvalu	
+	- dech	Tuvalu	
+	- frch	Tuvalu	
+- KlstFmncKMAddressCountry	tw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Taiwan	
+	- dech	Taiwan	
+	- frch	Ta\u00efwan	
+- KlstFmncKMAddressCountry	tz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Tanzania	
+	- dech	Tansania	
+	- frch	Tanzanie	
+- KlstFmncKMAddressCountry	ua		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Ukraine	
+	- dech	Ukraine	
+	- frch	Ukraine	
+- KlstFmncKMAddressCountry	ug		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Uganda	
+	- dech	Uganda	
+	- frch	Ouganda	
+- KlstFmncKMAddressCountry	uk		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	United Kingdom	
+	- dech	Vereinigtes K\u00f6nigreich	
+	- frch	Royaume-Uni	
+- KlstFmncKMAddressCountry	um		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	U.S. Minor Outlying Islands	
+	- dech	Kleinere Amerikanische \u00dcberseeinseln	
+	- frch	\u00celes Mineures \u00c9l. des \u00c9tats-Unis	
+- KlstFmncKMAddressCountry	us		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	United States	
+	- dech	Vereinigte Staaten	
+	- frch	\u00c9tats-Unis	
+- KlstFmncKMAddressCountry	uy		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Uruguay	
+	- dech	Uruguay	
+	- frch	Uruguay	
+- KlstFmncKMAddressCountry	uz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Uzbekistan	
+	- dech	Usbekistan	
+	- frch	Ouzb\u00e9kistan	
+- KlstFmncKMAddressCountry	va		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Holy See	
+	- dech	Vatikanstadt	
+	- frch	\u00c9tat de la Cit\u00e9 du Vatican	
+- KlstFmncKMAddressCountry	vc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Saint Vincent and the Grenadines	
+	- dech	St. Vincent und die Grenadinen	
+	- frch	Saint-Vincent-et-les Grenadines	
+- KlstFmncKMAddressCountry	ve		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Venezuela	
+	- dech	Venezuela	
+	- frch	Venezuela	
+- KlstFmncKMAddressCountry	vg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Virgin Islands (British)	
+	- dech	Britische Jungferninseln	
+	- frch	\u00celes Vierges Britanniques	
+- KlstFmncKMAddressCountry	vi		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Virgin Islands (U.S.)	
+	- dech	Amerikanische Jungferninseln	
+	- frch	\u00celes Vierges des \u00c9tats-Unis	
+- KlstFmncKMAddressCountry	vn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Vietnam	
+	- dech	Vietnam	
+	- frch	Vi\u00eat Nam	
+- KlstFmncKMAddressCountry	vu		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Vanuatu	
+	- dech	Vanuatu	
+	- frch	Vanuatu	
+- KlstFmncKMAddressCountry	wf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Wallis and Futuna Islands	
+	- dech	Wallis und Futuna	
+	- frch	Wallis et Futuna	
+- KlstFmncKMAddressCountry	ws		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Samoa	
+	- dech	Samoa	
+	- frch	Samoa	
+- KlstFmncKMAddressCountry	ye		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Yemen	
+	- dech	Jemen	
+	- frch	Y\u00e9men	
+- KlstFmncKMAddressCountry	yt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Mayotte	
+	- dech	Mayotte	
+	- frch	Mayotte	
+- KlstFmncKMAddressCountry	za		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	South Africa	
+	- dech	S\u00fcdafrika	
+	- frch	Afrique du Sud	
+- KlstFmncKMAddressCountry	zm		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Zambia	
+	- dech	Sambia	
+	- frch	Zambie	
+- KlstFmncKMAddressCountry	zw		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	Zimbabwe	
+	- dech	Simbabwe	
+	- frch	Zimbabwe	
+- KlstFmncKMArticleType	spr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	spare part	
+	- dech	Ersatzteil	
+	- frch	pi\u00e8ce d\u00e9tach\u00e9e	
+- KlstFmncKMArticleType	cons		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	consumable	
+	- dech	Verbrauchsmaterial	
+	- frch	consommable	
+- KlstFmncKMFileMimetype	bmp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	image/bmp	
+- KlstFmncKMFileMimetype	cpp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/x-c	
+- KlstFmncKMFileMimetype	css		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/css	
+- KlstFmncKMFileMimetype	csv		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/comma-separated-values	
+- KlstFmncKMFileMimetype	doc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/msword	
+- KlstFmncKMFileMimetype	docx		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/vnd.openxmlformats-officedocument.wordprocessingml.document	
+- KlstFmncKMFileMimetype	eps		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/postscript	
+- KlstFmncKMFileMimetype	gif		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	image/gif	
+- KlstFmncKMFileMimetype	h		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/x-h	
+- KlstFmncKMFileMimetype	hdf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/x-hdf	
+- KlstFmncKMFileMimetype	html		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/html	
+- KlstFmncKMFileMimetype	jpg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	image/jpeg	
+- KlstFmncKMFileMimetype	js		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/javascript	
+- KlstFmncKMFileMimetype	make		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/x-makefile	
+- KlstFmncKMFileMimetype	nc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/x-netcdf	
+- KlstFmncKMFileMimetype	pdf		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/pdf	
+- KlstFmncKMFileMimetype	png		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	image/png	
+- KlstFmncKMFileMimetype	ppt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/mspowerpoint	
+- KlstFmncKMFileMimetype	pptx		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/vnd.openxmlformats-officedocument.presentationml.presentation	
+- KlstFmncKMFileMimetype	sh		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/x-sh	
+- KlstFmncKMFileMimetype	sql		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/x-sql	
+- KlstFmncKMFileMimetype	svg		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	image/svg+xml	
+- KlstFmncKMFileMimetype	tex		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/x-tex	
+- KlstFmncKMFileMimetype	tgz		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/x-gzip	
+- KlstFmncKMFileMimetype	tif		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	image/tiff	
+- KlstFmncKMFileMimetype	txt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/plain	
+- KlstFmncKMFileMimetype	xls		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/msexcel	
+- KlstFmncKMFileMimetype	xlsx		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	
+- KlstFmncKMFileMimetype	xml		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	text/xml	
+- KlstFmncKMFileMimetype	zip		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	application/zip	
+- KlstFmncKRMFabuserMToolLvl	notrn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	untrained	
+	- dech	ungeschult	
+	- frch	pas form\u00e9	
+- KlstFmncKRMFabuserMToolLvl	trn		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	trained	
+	- dech	geschult	
+	- frch	form\u00e9	
+- KlstFmncKRMFabuserMToolLvl	susr		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	super user	
+	- dech	Hauptnutzer	
+	- frch	utilisateur primaire	
+- KlstFmncKRMFabuserMToolLvl	resp		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	responsible	
+	- dech	Verantwortlicher	
+	- frch	responsable	
+- KlstFmncKRMOrgMPersonFunction	dir		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	director	
+	- dech	Leiter	
+	- frch	directeur	
+- KlstFmncKRMOrgMPersonFunction	tch		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	technician	
+	- dech	Techniker	
+	- frch	tecnicien	
+- KlstKMAddressAdrtype	ofc		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	office	
+	- dech	B\u00fcro	
+	- frch	bureau	
+- KlstKMAddressAdrtype	pvt		
+	- ImeIJAVKeylistKey1.srefX1FmncVLocale	Title	Comment
+	- enus	private	
+	- dech	privat	
+	- frch	priv\u00e9e	
+- ImeIMUsergroup.sref	Comment
+- fmncusers
+	- ImeIAMUsergroupAccess.srefX1IxFmncVCard	srefsIxFmncWUiaccess
+	- CrdFmncUsg	edit;exec;view
+	- CrdFmncUsr	edit;exec;view
+	- CrdFmncOrg	edit;exec;view
+	- CrdFmncPrs	edit;exec;view
+	- CrdFmncAdr	edit;exec;view
+	- CrdFmncFil	edit;exec;view
+	- CrdFmncStp	edit;exec;view
+	- CrdFmncPrj	edit;exec;view
+	- CrdFmncRun	edit;exec;view
+	- CrdFmncAct	edit;exec;view
+	- CrdFmncSep	edit;exec;view
+	- CrdFmncSmp	edit;exec;view
+	- CrdFmncFab	edit;exec;view
+	- CrdFmncFus	edit;exec;view
+	- CrdFmncTty	edit;exec;view
+	- CrdFmncTol	edit;exec;view
+	- CrdFmncFpj	edit;exec;view
+	- CrdFmncBil	edit;exec;view
+	- CrdFmncArt	edit;exec;view
+	- CrdFmncSki	edit;exec;view
+	- CrdFmncPco	edit;exec;view
+	- ImeIMUser.sref	srefIxFmncVLocale	srefIxFmncVUserlevel	Password
+	- fmncuser	enus	adm	asdf1234
+		- ImeIJMUserState.srefIxVState
+		- act
+		- ImeIMPerson.srefIxVSex	Title	Firstname
+		- f	Mrs.	Emily
+			- ImeIJMPersonLastname.Lastname
+			- Johnson
+	- fmncuserdech	dech	adm	asdf1234
+		- ImeIJMUserState.srefIxVState
+		- act
+		- ImeIMPerson.srefIxVSex	Title	Firstname
+		- f	Fr.	Julia
+			- ImeIJMPersonLastname.Lastname
+			- Schmidt
+	- fmncuserfrch	frch	adm	asdf1234
+		- ImeIJMUserState.srefIxVState
+		- act
+		- ImeIMPerson.srefIxVSex	Title	Firstname
+		- f	Mme.	Louise
+			- ImeIJMPersonLastname.Lastname
+			- Dubois
+

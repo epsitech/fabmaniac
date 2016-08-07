@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>_cont</title>
+		<script>
+			function handleDetPupSupChange() {parent.window.handlePupChange(document,"DetPupSup","");};
+			function handleDetTxfSrfKey(evt) {return parent.window.handleTxfKey(document,"DetTxfSrf","s",evt);};
+			function handleDetTxfSrfChange() {parent.window.handleTxfChange(document,"DetTxfSrf","s");};
+			function handleDetPupArtChange() {parent.window.handlePupChange(document,"DetPupArt","");};
+			function handleDetTxfMatKey(evt) {return parent.window.handleTxfKey(document,"DetTxfMat","",evt);};
+			function handleDetTxfMatChange() {parent.window.handleTxfChange(document,"DetTxfMat","");};
+<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+<!-- IP custStyle - INSERT -->
+	</head>
+<!-- IP onload - BEGIN -->
+	<body marginwidth="0" marginheight="0">
+<!-- IP onload - END -->
+		<table cellspacing="0" border="0" cellpadding="0"><form id="form" action="" method="POST" onsubmit="return true" enctype="multipart/form-data">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trDetSup" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptSup" class="cpt">DetCptSup</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<select id="DetPupSup" class="pup" size="1" onchange="handleDetPupSupChange()"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trDetSrf" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptSrf" class="cpt">DetCptSrf</span>
+					</td>
+					<td></td>
+					<td colspan="3" align="left">
+						<input id="DetTxfSrf" class="txfs" type="text" value="DetTxfSrf" onchange="handleDetTxfSrfChange()" onkeypress="return handleDetTxfSrfKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="4"></td>
+				</tr>
+				<tr id="trDetArt" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptArt" class="cpt">DetCptArt</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<select id="DetPupArt" class="pup" size="1" onchange="handleDetPupArtChange()"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trDetMat" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptMat" class="cpt">DetCptMat</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="DetTxfMat" class="txf" type="text" value="DetTxfMat" onchange="handleDetTxfMatChange()" onkeypress="return handleDetTxfMatKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+
+

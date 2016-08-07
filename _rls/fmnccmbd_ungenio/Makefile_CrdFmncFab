@@ -1,0 +1,38 @@
+# file Makefile
+# make file for CrdFmncFab card job handler, release fmnccmbd_ungenio
+# author Alexander Wirthmueller
+# date created: 7 Mar 2016
+# modified: 7 Mar 2016
+
+SRCROOT = /Users/epsi/src
+LIBROOT = /Users/epsi/lib
+
+CC = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread -DFMNCCMBD
+
+INCS = -I/opt/local/include/libxml2 -I/usr/local/mysql/include -I/opt/local/include/postgresql84 -I/opt/local/include -I/usr/include
+INCS += -I$(SRCROOT)
+INCS += -I$(SRCROOT)/dbsfmnc
+INCS += -I$(SRCROOT)/fmnccmbd -I$(SRCROOT)/fmnccmbd/IexFmnc -I$(SRCROOT)/fmnccmbd/VecFmnc
+
+OBJECTS += CrdFmncFab.o DlgFmncFabExpfab.o DlgFmncFabImpfab.o DlgFmncFabNew.o PnlFmncFabRec.o PnlFmncFabDetail.o PnlFmncFab1NFabproject.o QryFmncFab1NFabproject.o PnlFmncFab1NFabuser.o QryFmncFab1NFabuser.o PnlFmncFabFab1NTool.o QryFmncFabFab1NTool.o PnlFmncFabMNRun.o QryFmncFabMNRun.o PnlFmncFabHeadbar.o PnlFmncFabList.o QryFmncFabList.o
+
+LIBRARY = libcrdfmncfab
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CC) $(CPPFLAGS) $(INCS) -o $@ -c $<
+
+all:	$(LIBRARY)
+
+$(LIBRARY):	$(OBJECTS)
+	ar rcs $(LIBRARY).a $(OBJECTS)
+	rm -f *.o
+
+install:
+	cp $(LIBRARY).a $(LIBROOT)/fmnccmbd/
+
+clean:
+	rm -f *.o
+

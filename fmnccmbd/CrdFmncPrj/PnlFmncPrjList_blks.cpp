@@ -1,0 +1,545 @@
+/**
+  * \file PnlFmncPrjList_blks.cpp
+  * job handler for job PnlFmncPrjList (implementation of blocks)
+  * \author Alexander Wirthmueller
+  * \date created: 7 Mar 2016
+  * \date modified: 7 Mar 2016
+  */
+
+/******************************************************************************
+ class PnlFmncPrjList::VecVDo
+ ******************************************************************************/
+
+uint PnlFmncPrjList::VecVDo::getIx(
+			const string& sref
+		) {
+	string s = StrMod::lc(sref);
+
+	if (s == "butminimizeclick") return BUTMINIMIZECLICK;
+	else if (s == "butregularizeclick") return BUTREGULARIZECLICK;
+	else if (s == "butnewclick") return BUTNEWCLICK;
+	else if (s == "butdeleteclick") return BUTDELETECLICK;
+	else if (s == "butfilterclick") return BUTFILTERCLICK;
+	else if (s == "butrefreshclick") return BUTREFRESHCLICK;
+
+	return(0);
+};
+
+string PnlFmncPrjList::VecVDo::getSref(
+			const uint ix
+		) {
+	if (ix == BUTMINIMIZECLICK) return("ButMinimizeClick");
+	else if (ix == BUTREGULARIZECLICK) return("ButRegularizeClick");
+	else if (ix == BUTNEWCLICK) return("ButNewClick");
+	else if (ix == BUTDELETECLICK) return("ButDeleteClick");
+	else if (ix == BUTFILTERCLICK) return("ButFilterClick");
+	else if (ix == BUTREFRESHCLICK) return("ButRefreshClick");
+
+	return("");
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::ContIac
+ ******************************************************************************/
+
+PnlFmncPrjList::ContIac::ContIac(
+			const uint numFTos
+		) : Block() {
+	this->numFTos = numFTos;
+
+	mask = {NUMFTOS};
+};
+
+bool PnlFmncPrjList::ContIac::readXML(
+			xmlXPathContext* docctx
+			, string basexpath
+			, bool addbasetag
+		) {
+	clear();
+
+	bool basefound;
+
+	if (addbasetag)
+		basefound = checkUclcXPaths(docctx, basexpath, basexpath, "ContIacFmncPrjList");
+	else
+		basefound = checkXPath(docctx, basexpath);
+
+	string itemtag = "ContitemIacFmncPrjList";
+
+	if (basefound) {
+		if (extractUintAttrUclc(docctx, basexpath, itemtag, "Ci", "sref", "numFTos", numFTos)) add(NUMFTOS);
+	};
+
+	return basefound;
+};
+
+void PnlFmncPrjList::ContIac::writeXML(
+			xmlTextWriter* wr
+			, string difftag
+			, bool shorttags
+		) {
+	if (difftag.length() == 0) difftag = "ContIacFmncPrjList";
+
+	string itemtag;
+	if (shorttags) itemtag = "Ci";
+	else itemtag = "ContitemIacFmncPrjList";
+
+	xmlTextWriterStartElement(wr, BAD_CAST difftag.c_str());
+		writeUintAttr(wr, itemtag, "sref", "numFTos", numFTos);
+	xmlTextWriterEndElement(wr);
+};
+
+set<uint> PnlFmncPrjList::ContIac::comm(
+			const ContIac* comp
+		) {
+	set<uint> items;
+
+	if (numFTos == comp->numFTos) insert(items, NUMFTOS);
+
+	return(items);
+};
+
+set<uint> PnlFmncPrjList::ContIac::diff(
+			const ContIac* comp
+		) {
+	set<uint> commitems;
+	set<uint> diffitems;
+
+	commitems = comm(comp);
+
+	diffitems = {NUMFTOS};
+	for (auto it=commitems.begin();it!=commitems.end();it++) diffitems.erase(*it);
+
+	return(diffitems);
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::ContInf
+ ******************************************************************************/
+
+PnlFmncPrjList::ContInf::ContInf(
+			const bool ButFilterOn
+			, const uint numFCsiQst
+		) : Block() {
+	this->ButFilterOn = ButFilterOn;
+	this->numFCsiQst = numFCsiQst;
+
+	mask = {BUTFILTERON, NUMFCSIQST};
+};
+
+void PnlFmncPrjList::ContInf::writeXML(
+			xmlTextWriter* wr
+			, string difftag
+			, bool shorttags
+		) {
+	if (difftag.length() == 0) difftag = "ContInfFmncPrjList";
+
+	string itemtag;
+	if (shorttags) itemtag = "Ci";
+	else itemtag = "ContitemInfFmncPrjList";
+
+	xmlTextWriterStartElement(wr, BAD_CAST difftag.c_str());
+		writeBoolAttr(wr, itemtag, "sref", "ButFilterOn", ButFilterOn);
+		writeUintAttr(wr, itemtag, "sref", "numFCsiQst", numFCsiQst);
+	xmlTextWriterEndElement(wr);
+};
+
+set<uint> PnlFmncPrjList::ContInf::comm(
+			const ContInf* comp
+		) {
+	set<uint> items;
+
+	if (ButFilterOn == comp->ButFilterOn) insert(items, BUTFILTERON);
+	if (numFCsiQst == comp->numFCsiQst) insert(items, NUMFCSIQST);
+
+	return(items);
+};
+
+set<uint> PnlFmncPrjList::ContInf::diff(
+			const ContInf* comp
+		) {
+	set<uint> commitems;
+	set<uint> diffitems;
+
+	commitems = comm(comp);
+
+	diffitems = {BUTFILTERON, NUMFCSIQST};
+	for (auto it=commitems.begin();it!=commitems.end();it++) diffitems.erase(*it);
+
+	return(diffitems);
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::StatShr
+ ******************************************************************************/
+
+PnlFmncPrjList::StatShr::StatShr(
+			const uint ixFmncVExpstate
+			, const bool ButDeleteActive
+		) : Block() {
+	this->ixFmncVExpstate = ixFmncVExpstate;
+	this->ButDeleteActive = ButDeleteActive;
+
+	mask = {IXFMNCVEXPSTATE, BUTDELETEACTIVE};
+};
+
+void PnlFmncPrjList::StatShr::writeXML(
+			xmlTextWriter* wr
+			, string difftag
+			, bool shorttags
+		) {
+	if (difftag.length() == 0) difftag = "StatShrFmncPrjList";
+
+	string itemtag;
+	if (shorttags) itemtag = "Si";
+	else itemtag = "StatitemShrFmncPrjList";
+
+	xmlTextWriterStartElement(wr, BAD_CAST difftag.c_str());
+		writeStringAttr(wr, itemtag, "sref", "srefIxFmncVExpstate", VecFmncVExpstate::getSref(ixFmncVExpstate));
+		writeBoolAttr(wr, itemtag, "sref", "ButDeleteActive", ButDeleteActive);
+	xmlTextWriterEndElement(wr);
+};
+
+set<uint> PnlFmncPrjList::StatShr::comm(
+			const StatShr* comp
+		) {
+	set<uint> items;
+
+	if (ixFmncVExpstate == comp->ixFmncVExpstate) insert(items, IXFMNCVEXPSTATE);
+	if (ButDeleteActive == comp->ButDeleteActive) insert(items, BUTDELETEACTIVE);
+
+	return(items);
+};
+
+set<uint> PnlFmncPrjList::StatShr::diff(
+			const StatShr* comp
+		) {
+	set<uint> commitems;
+	set<uint> diffitems;
+
+	commitems = comm(comp);
+
+	diffitems = {IXFMNCVEXPSTATE, BUTDELETEACTIVE};
+	for (auto it=commitems.begin();it!=commitems.end();it++) diffitems.erase(*it);
+
+	return(diffitems);
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::StgIac
+ ******************************************************************************/
+
+PnlFmncPrjList::StgIac::StgIac(
+			const uint TcoTitWidth
+			, const uint TcoSteWidth
+		) : Block() {
+	this->TcoTitWidth = TcoTitWidth;
+	this->TcoSteWidth = TcoSteWidth;
+	mask = {TCOTITWIDTH, TCOSTEWIDTH};
+};
+
+bool PnlFmncPrjList::StgIac::readXML(
+			xmlXPathContext* docctx
+			, string basexpath
+			, bool addbasetag
+		) {
+	clear();
+
+	bool basefound;
+
+	if (addbasetag)
+		basefound = checkUclcXPaths(docctx, basexpath, basexpath, "StgIacFmncPrjList");
+	else
+		basefound = checkXPath(docctx, basexpath);
+
+	string itemtag = "StgitemIacFmncPrjList";
+
+	if (basefound) {
+		if (extractUintAttrUclc(docctx, basexpath, itemtag, "Si", "sref", "TcoTitWidth", TcoTitWidth)) add(TCOTITWIDTH);
+		if (extractUintAttrUclc(docctx, basexpath, itemtag, "Si", "sref", "TcoSteWidth", TcoSteWidth)) add(TCOSTEWIDTH);
+	};
+
+	return basefound;
+};
+
+void PnlFmncPrjList::StgIac::writeXML(
+			xmlTextWriter* wr
+			, string difftag
+			, bool shorttags
+		) {
+	if (difftag.length() == 0) difftag = "StgIacFmncPrjList";
+
+	string itemtag;
+	if (shorttags) itemtag = "Si";
+	else itemtag = "StgitemIacFmncPrjList";
+
+	xmlTextWriterStartElement(wr, BAD_CAST difftag.c_str());
+		writeUintAttr(wr, itemtag, "sref", "TcoTitWidth", TcoTitWidth);
+		writeUintAttr(wr, itemtag, "sref", "TcoSteWidth", TcoSteWidth);
+	xmlTextWriterEndElement(wr);
+};
+
+set<uint> PnlFmncPrjList::StgIac::comm(
+			const StgIac* comp
+		) {
+	set<uint> items;
+
+	if (TcoTitWidth == comp->TcoTitWidth) insert(items, TCOTITWIDTH);
+	if (TcoSteWidth == comp->TcoSteWidth) insert(items, TCOSTEWIDTH);
+
+	return(items);
+};
+
+set<uint> PnlFmncPrjList::StgIac::diff(
+			const StgIac* comp
+		) {
+	set<uint> commitems;
+	set<uint> diffitems;
+
+	commitems = comm(comp);
+
+	diffitems = {TCOTITWIDTH, TCOSTEWIDTH};
+	for (auto it=commitems.begin();it!=commitems.end();it++) diffitems.erase(*it);
+
+	return(diffitems);
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::Tag
+ ******************************************************************************/
+
+void PnlFmncPrjList::Tag::writeXML(
+			const uint ixFmncVLocale
+			, xmlTextWriter* wr
+			, string difftag
+			, bool shorttags
+		) {
+	if (difftag.length() == 0) difftag = "TagFmncPrjList";
+
+	string itemtag;
+	if (shorttags) itemtag = "Ti";
+	else itemtag = "TagitemFmncPrjList";
+
+	xmlTextWriterStartElement(wr, BAD_CAST difftag.c_str());
+		if (ixFmncVLocale == VecFmncVLocale::ENUS) {
+			writeStringAttr(wr, itemtag, "sref", "Cpt", "Projects");
+			writeStringAttr(wr, itemtag, "sref", "TcoTit", "Name");
+			writeStringAttr(wr, itemtag, "sref", "TcoSte", "State");
+		} else if (ixFmncVLocale == VecFmncVLocale::DECH) {
+			writeStringAttr(wr, itemtag, "sref", "Cpt", "Projekte");
+			writeStringAttr(wr, itemtag, "sref", "TcoTit", "Name");
+			writeStringAttr(wr, itemtag, "sref", "TcoSte", "Status");
+		} else if (ixFmncVLocale == VecFmncVLocale::FRCH) {
+			writeStringAttr(wr, itemtag, "sref", "Cpt", "Projets");
+			writeStringAttr(wr, itemtag, "sref", "TcoTit", "Nom");
+			writeStringAttr(wr, itemtag, "sref", "TcoSte", "\\u00e9tat");
+		};
+		writeStringAttr(wr, itemtag, "sref", "Trs", StrMod::cap(VecFmncVTag::getTitle(VecFmncVTag::GOTO, ixFmncVLocale)) + " ...");
+		writeStringAttr(wr, itemtag, "sref", "TxtShowing1", StrMod::cap(VecFmncVTag::getTitle(VecFmncVTag::SHOWLONG, ixFmncVLocale)));
+		writeStringAttr(wr, itemtag, "sref", "TxtShowing2", StrMod::cap(VecFmncVTag::getTitle(VecFmncVTag::EMPLONG, ixFmncVLocale)));
+	xmlTextWriterEndElement(wr);
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::DpchAppData
+ ******************************************************************************/
+
+PnlFmncPrjList::DpchAppData::DpchAppData() : DpchAppFmnc(VecFmncVDpch::DPCHAPPFMNCPRJLISTDATA) {
+};
+
+string PnlFmncPrjList::DpchAppData::getSrefsMask() {
+	vector<string> ss;
+	string srefs;
+
+	if (has(JREF)) ss.push_back("jref");
+	if (has(CONTIAC)) ss.push_back("contiac");
+	if (has(STGIAC)) ss.push_back("stgiac");
+	if (has(STGIACQRY)) ss.push_back("stgiacqry");
+
+	StrMod::vectorToString(ss, srefs);
+
+	return(srefs);
+};
+
+void PnlFmncPrjList::DpchAppData::readXML(
+			pthread_mutex_t* mScr
+			, map<string,ubigint>& descr
+			, xmlXPathContext* docctx
+			, string basexpath
+			, bool addbasetag
+		) {
+	clear();
+
+	string scrJref;
+
+	bool basefound;
+
+	if (addbasetag)
+		basefound = checkUclcXPaths(docctx, basexpath, basexpath, "DpchAppFmncPrjListData");
+	else
+		basefound = checkXPath(docctx, basexpath);
+
+	if (basefound) {
+		if (extractStringUclc(docctx, basexpath, "scrJref", "", scrJref)) {
+			jref = Scr::descramble(mScr, descr, scrJref);
+			add(JREF);
+		};
+		if (contiac.readXML(docctx, basexpath, true)) add(CONTIAC);
+		if (stgiac.readXML(docctx, basexpath, true)) add(STGIAC);
+		if (stgiacqry.readXML(docctx, basexpath, true)) add(STGIACQRY);
+	} else {
+		contiac = ContIac();
+		stgiac = StgIac();
+		stgiacqry = QryFmncPrjList::StgIac();
+	};
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::DpchAppDo
+ ******************************************************************************/
+
+PnlFmncPrjList::DpchAppDo::DpchAppDo() : DpchAppFmnc(VecFmncVDpch::DPCHAPPFMNCPRJLISTDO) {
+	ixVDo = 0;
+};
+
+string PnlFmncPrjList::DpchAppDo::getSrefsMask() {
+	vector<string> ss;
+	string srefs;
+
+	if (has(JREF)) ss.push_back("jref");
+	if (has(IXVDO)) ss.push_back("ixVDo");
+
+	StrMod::vectorToString(ss, srefs);
+
+	return(srefs);
+};
+
+void PnlFmncPrjList::DpchAppDo::readXML(
+			pthread_mutex_t* mScr
+			, map<string,ubigint>& descr
+			, xmlXPathContext* docctx
+			, string basexpath
+			, bool addbasetag
+		) {
+	clear();
+
+	string scrJref;
+	string srefIxVDo;
+
+	bool basefound;
+
+	if (addbasetag)
+		basefound = checkUclcXPaths(docctx, basexpath, basexpath, "DpchAppFmncPrjListDo");
+	else
+		basefound = checkXPath(docctx, basexpath);
+
+	if (basefound) {
+		if (extractStringUclc(docctx, basexpath, "scrJref", "", scrJref)) {
+			jref = Scr::descramble(mScr, descr, scrJref);
+			add(JREF);
+		};
+		if (extractStringUclc(docctx, basexpath, "srefIxVDo", "", srefIxVDo)) {
+			ixVDo = VecVDo::getIx(srefIxVDo);
+			add(IXVDO);
+		};
+	} else {
+	};
+};
+
+/******************************************************************************
+ class PnlFmncPrjList::DpchEngData
+ ******************************************************************************/
+
+PnlFmncPrjList::DpchEngData::DpchEngData(
+			const ubigint jref
+			, ContIac* contiac
+			, ContInf* continf
+			, Feed* feedFCsiQst
+			, Feed* feedFTos
+			, StatShr* statshr
+			, StgIac* stgiac
+			, ListFmncQPrjList* rst
+			, QryFmncPrjList::StatShr* statshrqry
+			, QryFmncPrjList::StgIac* stgiacqry
+			, const set<uint>& mask
+		) : DpchEngFmnc(VecFmncVDpch::DPCHENGFMNCPRJLISTDATA, jref) {
+	if (find(mask, ALL)) this->mask = {JREF, CONTIAC, CONTINF, FEEDFCSIQST, FEEDFTOS, STATSHR, STGIAC, TAG, RST, STATAPPQRY, STATSHRQRY, STGIACQRY};
+	else this->mask = mask;
+
+	if (find(this->mask, CONTIAC) && contiac) this->contiac = *contiac;
+	if (find(this->mask, CONTINF) && continf) this->continf = *continf;
+	if (find(this->mask, FEEDFCSIQST) && feedFCsiQst) this->feedFCsiQst = *feedFCsiQst;
+	if (find(this->mask, FEEDFTOS) && feedFTos) this->feedFTos = *feedFTos;
+	if (find(this->mask, STATSHR) && statshr) this->statshr = *statshr;
+	if (find(this->mask, STGIAC) && stgiac) this->stgiac = *stgiac;
+	if (find(this->mask, RST) && rst) this->rst = *rst;
+	if (find(this->mask, STATSHRQRY) && statshrqry) this->statshrqry = *statshrqry;
+	if (find(this->mask, STGIACQRY) && stgiacqry) this->stgiacqry = *stgiacqry;
+};
+
+string PnlFmncPrjList::DpchEngData::getSrefsMask() {
+	vector<string> ss;
+	string srefs;
+
+	if (has(JREF)) ss.push_back("jref");
+	if (has(CONTIAC)) ss.push_back("contiac");
+	if (has(CONTINF)) ss.push_back("continf");
+	if (has(FEEDFCSIQST)) ss.push_back("feedFCsiQst");
+	if (has(FEEDFTOS)) ss.push_back("feedFTos");
+	if (has(STATSHR)) ss.push_back("statshr");
+	if (has(STGIAC)) ss.push_back("stgiac");
+	if (has(TAG)) ss.push_back("tag");
+	if (has(RST)) ss.push_back("rst");
+	if (has(STATAPPQRY)) ss.push_back("statappqry");
+	if (has(STATSHRQRY)) ss.push_back("statshrqry");
+	if (has(STGIACQRY)) ss.push_back("stgiacqry");
+
+	StrMod::vectorToString(ss, srefs);
+
+	return(srefs);
+};
+
+void PnlFmncPrjList::DpchEngData::merge(
+			DpchEngFmnc* dpcheng
+		) {
+	DpchEngData* src = (DpchEngData*) dpcheng;
+
+	if (src->has(JREF)) {jref = src->jref; add(JREF);};
+	if (src->has(CONTIAC)) {contiac = src->contiac; add(CONTIAC);};
+	if (src->has(CONTINF)) {continf = src->continf; add(CONTINF);};
+	if (src->has(FEEDFCSIQST)) {feedFCsiQst = src->feedFCsiQst; add(FEEDFCSIQST);};
+	if (src->has(FEEDFTOS)) {feedFTos = src->feedFTos; add(FEEDFTOS);};
+	if (src->has(STATSHR)) {statshr = src->statshr; add(STATSHR);};
+	if (src->has(STGIAC)) {stgiac = src->stgiac; add(STGIAC);};
+	if (src->has(TAG)) add(TAG);
+	if (src->has(RST)) {rst = src->rst; add(RST);};
+	if (src->has(STATAPPQRY)) add(STATAPPQRY);
+	if (src->has(STATSHRQRY)) {statshrqry = src->statshrqry; add(STATSHRQRY);};
+	if (src->has(STGIACQRY)) {stgiacqry = src->stgiacqry; add(STGIACQRY);};
+};
+
+void PnlFmncPrjList::DpchEngData::writeXML(
+			const uint ixFmncVLocale
+			, pthread_mutex_t* mScr
+			, map<ubigint,string>& scr
+			, map<string,ubigint>& descr
+			, xmlTextWriter* wr
+		) {
+	xmlTextWriterStartElement(wr, BAD_CAST "DpchEngFmncPrjListData");
+	xmlTextWriterWriteAttribute(wr, BAD_CAST "xmlns", BAD_CAST "http://www.epsitechnologies.com/fmnc");
+		if (has(JREF)) writeString(wr, "scrJref", Scr::scramble(mScr, scr, descr, jref));
+		if (has(CONTIAC)) contiac.writeXML(wr);
+		if (has(CONTINF)) continf.writeXML(wr);
+		if (has(FEEDFCSIQST)) feedFCsiQst.writeXML(wr);
+		if (has(FEEDFTOS)) feedFTos.writeXML(wr);
+		if (has(STATSHR)) statshr.writeXML(wr);
+		if (has(STGIAC)) stgiac.writeXML(wr);
+		if (has(TAG)) Tag::writeXML(ixFmncVLocale, wr);
+		if (has(RST)) rst.writeXML(wr);
+		if (has(STATAPPQRY)) QryFmncPrjList::StatApp::writeXML(wr);
+		if (has(STATSHRQRY)) statshrqry.writeXML(wr);
+		if (has(STGIACQRY)) stgiacqry.writeXML(wr);
+	xmlTextWriterEndElement(wr);
+};
+
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>Supply_bcont</title>
+		<script>
+			function handleButArtExpandClick() {parent.parent.window.handleButExpandClick("LstArt");};
+			function handleButArtCollapseClick() {parent.parent.window.handleButCollapseClick("LstArt");};
+			function handleButArtViewClick() {parent.parent.window.handleButCrdopenClick("ButArtView");};
+			function handleButArtNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButArtNewcrd");};
+			function handleButSkiExpandClick() {parent.parent.window.handleButExpandClick("LstSki");};
+			function handleButSkiCollapseClick() {parent.parent.window.handleButCollapseClick("LstSki");};
+			function handleButSkiViewClick() {parent.parent.window.handleButCrdopenClick("ButSkiView");};
+			function handleButSkiNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButSkiNewcrd");};
+			function handleButPcoExpandClick() {parent.parent.window.handleButExpandClick("LstPco");};
+			function handleButPcoCollapseClick() {parent.parent.window.handleButCollapseClick("LstPco");};
+			function handleButPcoViewClick() {parent.parent.window.handleButCrdopenClick("ButPcoView");};
+			function handleButPcoNewcrdClick() {parent.parent.window.handleButCrdopenClick("ButPcoNewcrd");};
+<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<table cellspacing="0" border="0" cellpadding="0"><form action="">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trArt" class="show">
+					<td height="25"></td>
+					<td id="ldynArt" align="right">
+					</td>
+					<td></td>
+					<td id="dynArt" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynArt" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trArt2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trSki" class="show">
+					<td height="25"></td>
+					<td id="ldynSki" align="right">
+					</td>
+					<td></td>
+					<td id="dynSki" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynSki" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trSki2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr id="trPco" class="show">
+					<td height="25"></td>
+					<td id="ldynPco" align="right">
+					</td>
+					<td></td>
+					<td id="dynPco" rowspan="1" colspan="5">
+					</td>
+					<td></td>
+					<td id="rdynPco" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trPco2" class="hide">
+					<td colspan="3" height="67"></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+
+
